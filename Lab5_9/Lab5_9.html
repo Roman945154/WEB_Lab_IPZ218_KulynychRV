@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Lab5_9</title>
+  <script type = "text/javascript">
+    var house =
+    {
+      roof: "<img src='./roof.png'/><br/>",
+      secondFloor: "<img src='./floor2.png'/><br/>",
+      firstFloor: "<img src='./floor1.png'/><br/>",
+      basement: "<img src='./basement.png'/><br/>",
+      address: "<p style='color:green'>UK. London. Muswell Hill. N10<hr/>"
+    }
+
+    document.write(house.roof);
+
+    if ("thirdFloor" in house)
+    {
+      document.write(house["thirdFloor"]);
+    }
+    else
+    {
+      document.write(house["secondFloor"]);
+    }
+    
+
+    document.write(house.secondFloor);
+    document.write(house.firstFloor);
+    document.write(house.basement);
+    document.write(house.address);
+  </script>
+</head>
+
+<body>
+</body>
+</html>
